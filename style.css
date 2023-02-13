@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: 15vh;
+}
+#carouselExampleControls {
+    background-color: beige;
+    min-height: 15vh;
+
+}
+.carousel-inner {
+    display: flex;
+    align-content: center;
+}
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    
+}
+main {
+    min-height:70vh ;
+}
+footer {
+    min-height: 10vh;
+}
+.card {
+    gap:1rem;
+    margin: 1rem;
+
+}
