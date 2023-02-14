@@ -5,28 +5,35 @@
 nav {
     height: 15vh;
 }
-#carouselExampleControls {
-    background-color: beige;
-    min-height: 15vh;
 
-}
-.carousel-inner {
-    display: flex;
-    align-content: center;
-}
-.carousel-item {
-    display: flex;
-    justify-content: center;
-    
-}
+
 main {
-    min-height:70vh ;
+    min-height:75vh ;
+    background-color:#e8fcf2;
 }
 footer {
     min-height: 10vh;
+    background-color: #2d3230;
 }
 .card {
     gap:1rem;
     margin: 1rem;
 
+}
+  
+
+.btn {
+    background-color: #d90368;
+    color: black;
+    border: #d99f03 solid 1px;
+}
+.navbar {
+    background-color:#2d3230;
+}
+#navbar2 {
+    background-color:#b4c9be;
+    border: 1px rgb(252, 247, 247) solid;
+}
+li {
+    margin: 0.5rem;
 }
