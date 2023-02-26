@@ -4,36 +4,98 @@
 }
 nav {
     height: 15vh;
+    
 }
 
+.logo {
+    width: 15%;
+   
+}
+.nav-item {
+    z-index: 4;
+    font-weight: bold;
+}
 
 main {
     min-height:75vh ;
-    background-color:#e8fcf2;
+    background-color:#e9a9bf;
 }
 footer {
     min-height: 10vh;
-    background-color: #2d3230;
+    background-color: rgb(253, 106, 131);
+    color:white;
 }
 .card {
     gap:1rem;
     margin: 1rem;
-
+    padding: 1rem;
+    width: 18rem;
+}
+.card-img-top {
+    border-radius: 5%;
+    margin-top: 2%;
+    border: #0c0c0c 1px solid;
 }
   
 
 .btn {
     background-color: #d90368;
     color: black;
-    border: #d99f03 solid 1px;
+    border: #0c0c0c solid 1px;
 }
 .navbar {
-    background-color:#2d3230;
+    background: linear-gradient(to right, rgb(12, 12, 12), rgb(230, 84, 105));
+}
+.navbar-brand {
+    margin: 12px;
 }
 #navbar2 {
-    background-color:#b4c9be;
-    border: 1px rgb(252, 247, 247) solid;
+    background: rgb(31, 6, 6);
+    border: 1px rgb(216, 168, 168) solid;
+    color: #d90368;
 }
 li {
     margin: 0.5rem;
+   
+}
+#check {
+    margin-top: 2%;
+}
+#send {
+    margin-bottom: 15px;
+}
+.w3-right {
+    color:#d90368;
+}
+.w3-left {
+    color:#d90368;
+}
+#card-details {
+    min-width: 60vw;
+    min-height: 60vh;
+    margin-top: 5vh;
+}
+table {
+    margin: auto;
+    margin-top: 2%;
+}
+td {
+    border: #0c0c0c 1px solid;
+    background-color: antiquewhite;
+    padding: 5px;
+    
+}
+th {
+    border: #0c0c0c 1px solid;
+    font-size: larger;
+    background-color: #d90368 ;
+    color: black;
+}
+.td-h {
+    border: #0c0c0c 1px solid;
+    font-size: larger;
+    background-color: #d90368 ;
+    color: black;
+    font-weight: bold;
+
 }
