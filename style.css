@@ -78,6 +78,7 @@ li {
 table {
     margin: auto;
     margin-top: 2%;
+    max-height: 80%;
 }
 td {
     border: #0c0c0c 1px solid;
@@ -98,4 +99,7 @@ th {
     color: black;
     font-weight: bold;
 
+}
+.mainStats {
+    padding-bottom:2%;
 }
